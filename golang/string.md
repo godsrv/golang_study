@@ -1,6 +1,6 @@
 ### string结构
 
-![](D:\code\golang_study\images\string.png)
+![](images/string.png)
 
 
 
