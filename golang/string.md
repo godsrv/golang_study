@@ -1,10 +1,6 @@
 ### string结构
 
-
-
-
-
-![string.png](C:\Users\zebin\Desktop\string.png)
+![](D:\code\golang_study\images\string.png)
 
 
 
@@ -20,8 +16,6 @@ Unicode：国际标准码，融合了目前人类使用的所有字符，为每�
 
 UTF-8编码：UTF-8是一种变长编码方式，它能够表示Unicode字符集中的所有字符，包括汉字、拉丁字母、数字、符号等等。在UTF-8中，英文字母和数字占用一个字节，汉字占用三个字节，一些特殊的符号可能占用更多的字节。
 
-
-
 **string结构体知识点**
 
 1. 两部分组成： 指向底层[]byte数组的指针 和 长度
@@ -29,8 +23,6 @@ UTF-8编码：UTF-8是一种变长编码方式，它能够表示Unicode字符集
    2.string常量会在编译期分配到只读段，对应数据地址不可写入，故string不支持修改。
 
    3. 要修改必须转[]byte，string和[]byte转换，会将这段只读内存的数据复制到堆/栈上。
-
-
 
 **string使用**
 
