@@ -1,6 +1,6 @@
 ### string结构
 
-![](images/string.png)
+![](https://store.babyzoo.club/study/string.png)
 
 
 
