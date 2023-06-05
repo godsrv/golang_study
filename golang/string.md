@@ -2,8 +2,6 @@
 
 ![](https://store.babyzoo.club/study/string.png)
 
-
-
 **编码知识点：**
 
   ASCII: 规定了128个字符的编码 占用一个字节
