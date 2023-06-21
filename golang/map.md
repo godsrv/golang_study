@@ -32,7 +32,7 @@ typ mapextra struct {
     nextOverflow *bmap
 }
 
- 
+
  //在编译期间会产生新的结构体，bucket
  type bmap struct {
      tophash [8]uint8 //存储哈希值的高8位
@@ -40,7 +40,5 @@ typ mapextra struct {
      overflow *bmap   //溢出bucket的地址
  }
 ```
-
-
 
 ![](https://store.babyzoo.club/study/hmap.png)
